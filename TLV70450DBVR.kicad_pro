@@ -495,10 +495,12 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "Library"
+    ]
   },
   "meta": {
-    "filename": "TLV70450DBVR.kicad_pro",
+    "filename": "ME6206A33XG.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -721,7 +723,7 @@
   },
   "sheets": [
     [
-      "a0aac50c-405e-454e-9600-58c93bebf111",
+      "1df6ae02-d3d4-4e02-9ae3-4242eafe4dc1",
       "Root"
     ]
   ],

@@ -1,7 +1,0 @@
-"Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Footprint","Datasheet"
-"C1,C3","2","10uF","","","","PCM_Capacitor_SMD_AKL:C_1206_3216Metric","~"
-"C2,C4","2","100nF","","","","PCM_Capacitor_SMD_AKL:C_1206_3216Metric","~"
-"D1","1","SMAJ24CA","DNP (不作装配)","","","PCM_Diode_SMD_AKL:D_SMA_TVS","https://www.tme.eu/Document/dbc72d81c249fe51b6ab42300e8e06d0/SMAJ_ser.pdf"
-"D2","1","SMAJ5.0CA","DNP (不作装配)","","","PCM_Diode_SMD_AKL:D_SMA_TVS","https://www.tme.eu/Document/dbc72d81c249fe51b6ab42300e8e06d0/SMAJ_ser.pdf"
-"J1","1","Conn_01x03","","","","Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical","~"
-"U1","1","TLV70450DBVR","","","","Package_TO_SOT_SMD:SOT-23-5","http://www.ti.com/lit/ds/symlink/tlv712.pdf"

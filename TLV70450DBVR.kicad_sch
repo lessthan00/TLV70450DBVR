@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "a0aac50c-405e-454e-9600-58c93bebf111")
+	(uuid "1df6ae02-d3d4-4e02-9ae3-4242eafe4dc1")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x03"
@@ -166,6 +166,304 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Library:SMF3.3CA"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMF3.3CA"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-123F"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/48682096.html?fromZone=s_s__%2522SMF3.3CA%2522&spm=sc.gb.xh1.zy.n___sc.it.hd.ss&lcsc_vid=RVRcUVYDElFdXlJeRAALAwJQTwNeBgZeQ1QMUwJSRlQxVlNSQVZWVV1VR1lXVTtW"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SOD-123F Bidirectional TVS Diode, 5V, 200W, Alternate KiCAD Library"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode TVS bidirectional SMF-CA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SMF3.3CA_0_1"
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0.508 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SMF3.3CA_0_2"
+				(polyline
+					(pts
+						(xy -3.81 -3.81) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -1.778) (xy -2.667 -0.889) (xy 0 0) (xy -0.889 -2.667) (xy -1.778 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 0.889) (xy -1.27 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 0.889) (xy 0.889 -0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.889 -0.889) (xy 1.27 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 1.778) (xy 2.667 0.889) (xy 0 0) (xy 0.889 2.667) (xy 1.778 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SMF3.3CA_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SMF3.3CA_1_2"
+				(pin passive line
+					(at -3.81 -3.81 0)
+					(length 0)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 3.81 180)
+					(length 0)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -355,7 +653,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_Capacitor_AKL:C_1206"
+		(symbol "PCM_Capacitor_US_AKL:C_1206"
 			(pin_numbers
 				(hide yes)
 			)
@@ -606,7 +904,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_Diode_TVS_AKL:SMAJ24CA"
+		(symbol "PCM_Diode_TVS_AKL:SMAJ18CA"
 			(pin_numbers
 				(hide yes)
 			)
@@ -625,7 +923,7 @@
 					)
 				)
 			)
-			(property "Value" "SMAJ24CA"
+			(property "Value" "SMAJ18CA"
 				(at 0 2.54 0)
 				(effects
 					(font
@@ -651,7 +949,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SMA Bidirectional TVS Diode, 24V, 400W, Alternate KiCAD Library"
+			(property "Description" "SMA Bidirectional TVS Diode, 18V, 400W, Alternate KiCAD Library"
 				(at 0 0 0)
 				(effects
 					(font
@@ -678,7 +976,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SMAJ24CA_0_1"
+			(symbol "SMAJ18CA_0_1"
 				(polyline
 					(pts
 						(xy 0 1.27) (xy 0 -1.27)
@@ -752,7 +1050,7 @@
 					)
 				)
 			)
-			(symbol "SMAJ24CA_0_2"
+			(symbol "SMAJ18CA_0_2"
 				(polyline
 					(pts
 						(xy -3.81 -3.81) (xy 3.81 3.81)
@@ -826,7 +1124,7 @@
 					)
 				)
 			)
-			(symbol "SMAJ24CA_1_1"
+			(symbol "SMAJ18CA_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -864,305 +1162,7 @@
 					)
 				)
 			)
-			(symbol "SMAJ24CA_1_2"
-				(pin passive line
-					(at -3.81 -3.81 0)
-					(length 0)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 3.81 180)
-					(length 0)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PCM_Diode_TVS_AKL:SMAJ5.0CA"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SMAJ5.0CA"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "PCM_Diode_SMD_AKL:D_SMA_TVS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.tme.eu/Document/dbc72d81c249fe51b6ab42300e8e06d0/SMAJ_ser.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMA Bidirectional TVS Diode, 5V, 400W, Alternate KiCAD Library"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode TVS bidirectional SMAJ-CA"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SMAJ5.0CA_0_1"
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0.508 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy -0.508 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "SMAJ5.0CA_0_2"
-				(polyline
-					(pts
-						(xy -3.81 -3.81) (xy 3.81 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -1.778) (xy -2.667 -0.889) (xy 0 0) (xy -0.889 -2.667) (xy -1.778 -1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 0.889) (xy -1.27 0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 0.889) (xy 0.889 -0.889)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.889 -0.889) (xy 1.27 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 1.778) (xy 2.667 0.889) (xy 0 0) (xy 0.889 2.667) (xy 1.778 1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "SMAJ5.0CA_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SMAJ5.0CA_1_2"
+			(symbol "SMAJ18CA_1_2"
 				(pin passive line
 					(at -3.81 -3.81 0)
 					(length 0)
@@ -1555,251 +1555,301 @@
 		)
 	)
 	(junction
-		(at 111.76 59.69)
+		(at 107.95 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1bb2f31d-90db-4bd1-aea9-0a66f9652c70")
+		(uuid "514833eb-50a9-44fe-916f-294371287c75")
 	)
 	(junction
-		(at 121.92 49.53)
+		(at 81.28 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "29e2f1f0-508c-4bc9-9e12-7011d4143fda")
+		(uuid "5c57528f-1ab3-4705-9a16-ac77464cdffd")
 	)
 	(junction
-		(at 95.25 49.53)
+		(at 107.95 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "32ee81f2-4474-4065-ad81-632c0db6d5db")
+		(uuid "64aba8ce-fd6c-4491-992c-3b04ebd53f9f")
 	)
 	(junction
-		(at 81.28 49.53)
+		(at 48.26 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3cdcda5b-b07d-4b6d-8a42-a0c607154e17")
+		(uuid "6badc462-3549-4c36-8e68-21b0bb8cafde")
 	)
 	(junction
-		(at 95.25 59.69)
+		(at 120.65 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8ba5dc92-6522-4faf-a7fd-1f1dcaadeadd")
+		(uuid "70280d08-f1cd-409a-a6cb-6f11d0479222")
 	)
 	(junction
-		(at 121.92 59.69)
+		(at 93.98 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8eacb4c8-0791-4273-9ae3-5e1c4ac6299d")
+		(uuid "719da37d-a298-4564-bf72-c6c4262e0a9d")
 	)
 	(junction
-		(at 81.28 59.69)
+		(at 93.98 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a377146a-42eb-4c58-a55c-79810233c157")
+		(uuid "9042bff0-f34f-427b-85c5-6b9b00f8c2b8")
 	)
 	(junction
-		(at 135.89 49.53)
+		(at 62.23 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "be34c7c5-13a0-4270-8528-c922a29d208f")
+		(uuid "93e780b9-2863-4b2b-b297-6be449c23a72")
 	)
 	(junction
-		(at 135.89 59.69)
+		(at 62.23 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d76a5512-fe9a-41b5-9efa-6cec6621d588")
+		(uuid "9d1d29f1-637e-4e32-bd4e-238eec1c5c0e")
+	)
+	(junction
+		(at 33.02 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aeaad6dc-fb16-4035-b8b2-ac734cd230da")
+	)
+	(junction
+		(at 48.26 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2d4d540-1b28-4c57-a6ca-376db0bf414f")
 	)
 	(wire
 		(pts
-			(xy 121.92 59.69) (xy 135.89 59.69)
+			(xy 88.9 41.91) (xy 93.98 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "197c5c99-23c0-4dfe-b67d-d5b0c3efc10b")
+		(uuid "05ac1d29-e7d3-432c-88cf-2f065aa99a93")
 	)
 	(wire
 		(pts
-			(xy 67.31 59.69) (xy 81.28 59.69)
+			(xy 48.26 41.91) (xy 62.23 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "27f82272-fff0-4b9b-bdee-35b199cdcf78")
+		(uuid "0fe6615d-7d0f-4bd7-87e6-67912a7768d0")
 	)
 	(wire
 		(pts
-			(xy 135.89 49.53) (xy 149.86 49.53)
+			(xy 81.28 73.66) (xy 81.28 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "29d58138-b4b4-45af-a837-60732b8b752c")
+		(uuid "276cfdbc-7c71-48a6-a7cb-091d947a4b44")
 	)
 	(wire
 		(pts
-			(xy 135.89 59.69) (xy 149.86 59.69)
+			(xy 33.02 41.91) (xy 48.26 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "36515e4c-9ba9-4ed1-be62-d87d8e588060")
+		(uuid "2c2418c9-d76c-4077-90b4-b4fa14f4dae8")
 	)
 	(wire
 		(pts
-			(xy 111.76 59.69) (xy 121.92 59.69)
+			(xy 107.95 52.07) (xy 120.65 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4211753b-a8db-401e-9d6d-1e705a824bf6")
+		(uuid "3a9006f2-1804-4563-8ac2-ab9854d7055c")
 	)
 	(wire
 		(pts
-			(xy 121.92 57.15) (xy 121.92 59.69)
+			(xy 48.26 52.07) (xy 62.23 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4cc14edc-b5db-453b-b803-2bb4d36142cf")
+		(uuid "3fadcb6a-dd90-4bc8-80b0-a3059fa1fb32")
 	)
 	(wire
 		(pts
-			(xy 119.38 76.2) (xy 114.3 76.2)
+			(xy 107.95 41.91) (xy 120.65 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5e103773-56f1-4577-894c-16fd90c75d6f")
+		(uuid "72f383a0-3587-4727-9bd0-663df02f2aaf")
 	)
 	(wire
 		(pts
-			(xy 104.14 76.2) (xy 109.22 76.2)
+			(xy 62.23 41.91) (xy 62.23 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6b331469-dd40-46c3-bd82-16e702c76da0")
+		(uuid "7c5bbed0-37b4-461b-83e6-1cf8567c570c")
 	)
 	(wire
 		(pts
-			(xy 81.28 59.69) (xy 95.25 59.69)
+			(xy 33.02 52.07) (xy 48.26 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6e31d3e4-4f6b-475a-9690-6a0e557cfd0d")
+		(uuid "7f2cbe72-dcac-4864-8902-a467ee0e6b68")
 	)
 	(wire
 		(pts
-			(xy 135.89 59.69) (xy 135.89 57.15)
+			(xy 62.23 41.91) (xy 73.66 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "78307340-5aa4-4833-aba3-d18021182a2e")
+		(uuid "861a7793-2ba1-427b-bd6a-76c18a36eee7")
 	)
 	(wire
 		(pts
-			(xy 121.92 49.53) (xy 135.89 49.53)
+			(xy 81.28 52.07) (xy 93.98 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8e2d5512-a4e3-47cb-bbf8-a3e6225e94bb")
+		(uuid "87ac1303-b503-4c9f-b043-9535f6b94d91")
 	)
 	(wire
 		(pts
-			(xy 81.28 49.53) (xy 95.25 49.53)
+			(xy 93.98 41.91) (xy 107.95 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "99162fff-9399-4866-a324-7858859fde6a")
+		(uuid "bb2287cb-2197-4c56-b358-48753385a0d0")
 	)
 	(wire
 		(pts
-			(xy 119.38 49.53) (xy 121.92 49.53)
+			(xy 74.93 76.2) (xy 78.74 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a5c83258-5488-4227-a611-b37ae14133d5")
+		(uuid "be54df5c-bef3-42ca-8272-d30d4e7f5b9f")
 	)
 	(wire
 		(pts
-			(xy 81.28 59.69) (xy 81.28 57.15)
+			(xy 62.23 52.07) (xy 81.28 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a9c52d22-206f-4363-a6e9-38c96c4346ef")
+		(uuid "c19fec5c-7ef7-4d12-a92a-7e81323692e2")
 	)
 	(wire
 		(pts
-			(xy 95.25 49.53) (xy 104.14 49.53)
+			(xy 93.98 41.91) (xy 93.98 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bf3e5f60-31eb-43c9-ae73-c50d03dcfcca")
+		(uuid "c85a27d2-8038-49e5-b8dd-2cbab5b727bb")
 	)
 	(wire
 		(pts
-			(xy 67.31 49.53) (xy 81.28 49.53)
+			(xy 83.82 76.2) (xy 87.63 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e3fb2293-31af-4dd2-af7b-82c107c17ad6")
+		(uuid "ceb15113-566a-4374-9eb5-62585ab0adca")
 	)
 	(wire
 		(pts
-			(xy 95.25 57.15) (xy 95.25 59.69)
+			(xy 81.28 54.61) (xy 81.28 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e663c70c-598f-40bf-91ea-fce3757b1039")
+		(uuid "cf35a6f6-a16e-45f5-b971-47db415734e9")
 	)
 	(wire
 		(pts
-			(xy 95.25 59.69) (xy 111.76 59.69)
+			(xy 107.95 41.91) (xy 107.95 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ecefb8e3-f42f-4196-b50a-2e4b9c1c12d9")
+		(uuid "cf4710e6-9f1f-47d0-a123-1878a9663cdc")
+	)
+	(wire
+		(pts
+			(xy 93.98 52.07) (xy 107.95 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efc3acde-0194-4669-b223-6090a94cc0ad")
+	)
+	(wire
+		(pts
+			(xy 48.26 41.91) (xy 48.26 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9714cac-ff9a-4506-b933-dec29543c863")
 	)
 	(symbol
-		(lib_id "power:+24V")
-		(at 81.28 49.53 0)
+		(lib_id "PCM_Capacitor_US_AKL:C_1206")
+		(at 107.95 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5a7523bb-aafa-4cf9-afd0-8b0679af61b3")
-		(property "Reference" "#PWR01"
-			(at 81.28 53.34 0)
+		(uuid "232928ec-4543-44fa-9151-c17ecbf974f2")
+		(property "Reference" "C4"
+			(at 111.76 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 111.76 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
+			(at 108.9152 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1807,8 +1857,203 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+24V"
-			(at 81.28 44.45 0)
+		(property "Datasheet" "~"
+			(at 107.95 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 1206 MLCC capacitor, Alternate KiCad Library"
+			(at 107.95 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5945e5ad-70a8-4f56-99f5-85fc87fbd9cd")
+		)
+		(pin "1"
+			(uuid "cedff690-39f5-4644-a345-205a86a6e3b2")
+		)
+		(instances
+			(project "HT7333"
+				(path "/1df6ae02-d3d4-4e02-9ae3-4242eafe4dc1"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_US_AKL:C_1206")
+		(at 48.26 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35fcd58a-1490-4b7a-91f4-0733045aae36")
+		(property "Reference" "C1"
+			(at 52.07 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 52.07 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
+			(at 49.2252 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 1206 MLCC capacitor, Alternate KiCad Library"
+			(at 48.26 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6a1a0982-ca59-4f51-883b-617dc0a82d4a")
+		)
+		(pin "1"
+			(uuid "4336eb44-d546-43fb-aa85-2f4d1dd18b01")
+		)
+		(instances
+			(project ""
+				(path "/1df6ae02-d3d4-4e02-9ae3-4242eafe4dc1"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 81.28 81.28 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e358b47-9d5a-4061-be93-1f1ec86b6309")
+		(property "Reference" "J1"
+			(at 86.36 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 86.36 82.5499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 81.28 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 81.28 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a6107d92-4171-42e6-a582-cb072380b0ca")
+		)
+		(pin "1"
+			(uuid "8a406607-4b8e-48e0-9d53-ae01a758915b")
+		)
+		(pin "3"
+			(uuid "302ba533-5252-444d-9d8c-fdc990cb25b1")
+		)
+		(instances
+			(project ""
+				(path "/1df6ae02-d3d4-4e02-9ae3-4242eafe4dc1"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 87.63 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4173cc3a-63ca-4753-a244-d970b652a295")
+		(property "Reference" "#PWR08"
+			(at 87.63 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 87.63 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1816,7 +2061,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 49.53 0)
+			(at 87.63 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1825,7 +2070,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 49.53 0)
+			(at 87.63 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 87.63 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d22b789-5bee-49e3-bec0-7a63673b181b")
+		)
+		(instances
+			(project "ME6210A33PG"
+				(path "/1df6ae02-d3d4-4e02-9ae3-4242eafe4dc1"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 33.02 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a7523bb-aafa-4cf9-afd0-8b0679af61b3")
+		(property "Reference" "#PWR01"
+			(at 33.02 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 33.02 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1834,7 +2145,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 81.28 49.53 0)
+			(at 33.02 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1846,8 +2157,8 @@
 			(uuid "94c3ab79-7552-4af8-af11-2ca3bc436776")
 		)
 		(instances
-			(project ""
-				(path "/a0aac50c-405e-454e-9600-58c93bebf111"
+			(project "ME6210A33PG"
+				(path "/1df6ae02-d3d4-4e02-9ae3-4242eafe4dc1"
 					(reference "#PWR01")
 					(unit 1)
 				)
@@ -1855,226 +2166,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
-		(at 104.14 76.2 0)
+		(lib_id "PCM_Capacitor_US_AKL:C_1206")
+		(at 62.23 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "891bc76c-59aa-4318-b3d2-e82cbaa23ef9")
-		(property "Reference" "#PWR02"
-			(at 104.14 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+24V"
-			(at 104.14 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 104.14 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d050e581-a583-42ed-a387-6ae732d50724")
-		)
-		(instances
-			(project "TLV70450DBVR"
-				(path "/a0aac50c-405e-454e-9600-58c93bebf111"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 111.76 81.28 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8c463296-2ddc-4d60-9c49-a1e7bbde8c58")
-		(property "Reference" "J1"
-			(at 106.68 80.0099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x03"
-			(at 106.68 82.5499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 111.76 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 111.76 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "704ed270-d43f-431e-8964-337d1c023b75")
-		)
-		(pin "2"
-			(uuid "78982251-bbf5-4c3c-aa84-26232ae567c0")
-		)
-		(pin "1"
-			(uuid "7be1a3d9-6270-4c3b-85a1-f6311c9916b2")
-		)
-		(instances
-			(project "TLV70450DBVR"
-				(path "/a0aac50c-405e-454e-9600-58c93bebf111"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_1206")
-		(at 121.92 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b25fdeb-6708-4b3c-8373-474f1b18c73a")
-		(property "Reference" "C3"
-			(at 125.73 52.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 125.73 54.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
-			(at 122.8852 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 121.92 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 1206 MLCC capacitor, Alternate KiCad Library"
-			(at 121.92 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "418195c7-ddde-4728-81e6-6b8738258606")
-		)
-		(pin "2"
-			(uuid "323e726e-f344-4cb1-9491-5f18eae63c61")
-		)
-		(instances
-			(project "TLV70450DBVR"
-				(path "/a0aac50c-405e-454e-9600-58c93bebf111"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_1206")
-		(at 95.25 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c5bb358-d87d-4e1c-a73b-d02fae72ce80")
+		(uuid "65dad9bb-d540-42b5-a7e8-22676942662b")
 		(property "Reference" "C2"
-			(at 99.06 52.0699 0)
+			(at 66.04 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2083,7 +2185,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 99.06 54.6099 0)
+			(at 66.04 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2092,7 +2194,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
-			(at 96.2152 57.15 0)
+			(at 63.1952 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2101,7 +2203,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 53.34 0)
+			(at 62.23 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2110,7 +2212,77 @@
 			)
 		)
 		(property "Description" "SMD 1206 MLCC capacitor, Alternate KiCad Library"
-			(at 95.25 53.34 0)
+			(at 62.23 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2d36c623-82d1-448a-84e7-e7f84ab5f0b5")
+		)
+		(pin "1"
+			(uuid "316d52cb-2755-4f6f-82f9-d2cb23a71406")
+		)
+		(instances
+			(project "HT7333"
+				(path "/1df6ae02-d3d4-4e02-9ae3-4242eafe4dc1"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_TVS_AKL:SMAJ18CA")
+		(at 33.02 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "7407bde4-6bf8-4905-a6a2-3f7d595fe87a")
+		(property "Reference" "D1"
+			(at 35.56 45.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMAJ18CA"
+			(at 35.56 48.2599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SMA_TVS"
+			(at 33.02 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/dbc72d81c249fe51b6ab42300e8e06d0/SMAJ_ser.pdf"
+			(at 33.02 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMA Bidirectional TVS Diode, 18V, 400W, Alternate KiCAD Library"
+			(at 33.02 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2119,32 +2291,102 @@
 			)
 		)
 		(pin "1"
-			(uuid "c5f5a011-7364-4d3c-9e21-90cad3b1a828")
+			(uuid "45fed282-9b4d-4c45-afce-fc27066191d0")
 		)
 		(pin "2"
-			(uuid "b47dff29-d68c-4a98-a857-74eafa658a94")
+			(uuid "ae7a61c5-060e-48d3-89d6-3a3f581cd5c7")
 		)
 		(instances
 			(project ""
-				(path "/a0aac50c-405e-454e-9600-58c93bebf111"
-					(reference "C2")
+				(path "/1df6ae02-d3d4-4e02-9ae3-4242eafe4dc1"
+					(reference "D1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_1206")
-		(at 81.28 53.34 0)
+		(lib_id "Library:SMF3.3CA")
+		(at 120.65 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "86172d1a-4684-4ac8-814f-ceae49651803")
+		(property "Reference" "D2"
+			(at 123.19 45.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMF3.3CA"
+			(at 123.19 48.2599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-123F"
+			(at 120.65 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/48682096.html?fromZone=s_s__%2522SMF3.3CA%2522&spm=sc.gb.xh1.zy.n___sc.it.hd.ss&lcsc_vid=RVRcUVYDElFdXlJeRAALAwJQTwNeBgZeQ1QMUwJSRlQxVlNSQVZWVV1VR1lXVTtW"
+			(at 120.65 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOD-123F Bidirectional TVS Diode, 5V, 200W, Alternate KiCAD Library"
+			(at 120.65 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d836897b-c911-40b7-b351-4c1beca91fbb")
+		)
+		(pin "1"
+			(uuid "b6dd5fc6-152b-4936-9092-181aa43b3b70")
+		)
+		(instances
+			(project ""
+				(path "/1df6ae02-d3d4-4e02-9ae3-4242eafe4dc1"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_US_AKL:C_1206")
+		(at 93.98 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a44679aa-8b2e-4114-bb9c-acf7b3cbdfd0")
-		(property "Reference" "C1"
-			(at 85.09 52.0699 0)
+		(uuid "9b173555-78be-4ff2-ba9d-93a52c1a6bb1")
+		(property "Reference" "C3"
+			(at 97.79 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2153,7 +2395,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 85.09 54.6099 0)
+			(at 97.79 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2162,7 +2404,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
-			(at 82.2452 57.15 0)
+			(at 94.9452 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2171,7 +2413,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 53.34 0)
+			(at 93.98 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2180,7 +2422,7 @@
 			)
 		)
 		(property "Description" "SMD 1206 MLCC capacitor, Alternate KiCad Library"
-			(at 81.28 53.34 0)
+			(at 93.98 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2188,33 +2430,33 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "264c95b3-ef15-485f-9b65-8dd40d93812b")
-		)
 		(pin "2"
-			(uuid "04b141d2-b5dc-4001-ab59-a4e6f7b9f915")
+			(uuid "bd86a00d-91df-4218-bc7c-91684d4c3c66")
+		)
+		(pin "1"
+			(uuid "8193f943-3c11-4f90-bf26-03f17f0c9b76")
 		)
 		(instances
-			(project "TLV70450DBVR"
-				(path "/a0aac50c-405e-454e-9600-58c93bebf111"
-					(reference "C1")
+			(project "HT7333"
+				(path "/1df6ae02-d3d4-4e02-9ae3-4242eafe4dc1"
+					(reference "C3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 135.89 49.53 0)
+		(lib_id "power:GND")
+		(at 81.28 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bfa3bab6-85e1-431c-8ed0-cda006f69adb")
-		(property "Reference" "#PWR07"
-			(at 135.89 53.34 0)
+		(uuid "9e719d0a-1f73-49de-bf32-6b24eab05d8c")
+		(property "Reference" "#PWR03"
+			(at 81.28 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2222,8 +2464,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 135.89 44.45 0)
+		(property "Value" "GND"
+			(at 81.28 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2231,7 +2473,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 49.53 0)
+			(at 81.28 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2240,7 +2482,139 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 49.53 0)
+			(at 81.28 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 81.28 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b9d55c8-3097-4fc9-816c-358d393c623d")
+		)
+		(instances
+			(project "HT7333"
+				(path "/1df6ae02-d3d4-4e02-9ae3-4242eafe4dc1"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 74.93 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "babfa7d7-7972-4b0b-b54f-c1fde5970e7d")
+		(property "Reference" "#PWR02"
+			(at 74.93 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 74.93 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 74.93 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52be9689-2c6b-40a3-a82f-e202851465c7")
+		)
+		(instances
+			(project "ME6210A33PG"
+				(path "/1df6ae02-d3d4-4e02-9ae3-4242eafe4dc1"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 120.65 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfa3bab6-85e1-431c-8ed0-cda006f69adb")
+		(property "Reference" "#PWR07"
+			(at 120.65 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 120.65 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2249,7 +2623,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 135.89 49.53 0)
+			(at 120.65 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2261,8 +2635,8 @@
 			(uuid "86719275-9e65-4ef4-9a9d-8ce03e8efc1e")
 		)
 		(instances
-			(project ""
-				(path "/a0aac50c-405e-454e-9600-58c93bebf111"
+			(project "ME6210A33PG"
+				(path "/1df6ae02-d3d4-4e02-9ae3-4242eafe4dc1"
 					(reference "#PWR07")
 					(unit 1)
 				)
@@ -2271,7 +2645,7 @@
 	)
 	(symbol
 		(lib_id "Library:TLV70450DBVR")
-		(at 111.76 52.07 0)
+		(at 81.28 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2280,7 +2654,7 @@
 		(fields_autoplaced yes)
 		(uuid "cd0e9304-f92c-4ff8-99b6-6332734d17a6")
 		(property "Reference" "U1"
-			(at 111.76 43.18 0)
+			(at 81.28 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2288,7 +2662,7 @@
 			)
 		)
 		(property "Value" "TLV70450DBVR"
-			(at 111.76 45.72 0)
+			(at 81.28 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2296,7 +2670,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 111.76 43.815 0)
+			(at 81.28 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2306,7 +2680,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv712.pdf"
-			(at 111.76 50.8 0)
+			(at 81.28 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2315,7 +2689,7 @@
 			)
 		)
 		(property "Description" "300mA Low Dropout Voltage Regulator, Fixed Output 0.9V, SOT-23-5"
-			(at 111.76 52.07 0)
+			(at 81.28 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2339,8 +2713,8 @@
 			(uuid "15873f3e-4804-4c63-8f81-5480bc0fe9cd")
 		)
 		(instances
-			(project ""
-				(path "/a0aac50c-405e-454e-9600-58c93bebf111"
+			(project "ME6210A33PG"
+				(path "/1df6ae02-d3d4-4e02-9ae3-4242eafe4dc1"
 					(reference "U1")
 					(unit 1)
 				)
@@ -2349,16 +2723,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 76.2 180)
+		(at 81.28 73.66 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d67455e6-a872-4aa3-9d5d-a54fb7573a34")
+		(uuid "fa7f3447-7adb-4a81-a7c1-226a8f26c6ac")
 		(property "Reference" "#PWR04"
-			(at 111.76 69.85 0)
+			(at 81.28 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2367,7 +2741,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.76 71.12 0)
+			(at 81.28 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2375,7 +2749,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 76.2 0)
+			(at 81.28 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2384,7 +2758,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 76.2 0)
+			(at 81.28 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2393,7 +2767,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 76.2 0)
+			(at 81.28 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2402,354 +2776,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "8e880c71-c801-4ed0-a78f-439982389eab")
+			(uuid "df3c6164-2bff-450f-983d-ade21b53e212")
 		)
 		(instances
-			(project "TLV70450DBVR"
-				(path "/a0aac50c-405e-454e-9600-58c93bebf111"
+			(project ""
+				(path "/1df6ae02-d3d4-4e02-9ae3-4242eafe4dc1"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 111.76 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dd8b03f2-c3bf-48b1-abb1-68b35f3d3393")
-		(property "Reference" "#PWR03"
-			(at 111.76 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 111.76 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f319eee3-bbb8-40a6-a27f-20d31ac17e91")
-		)
-		(instances
-			(project ""
-				(path "/a0aac50c-405e-454e-9600-58c93bebf111"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 119.38 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e982e8be-d8c7-41f2-9534-a274697f2e9a")
-		(property "Reference" "#PWR08"
-			(at 119.38 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 119.38 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 119.38 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cc058357-1c02-4c74-adeb-c59aa11a1d0b")
-		)
-		(instances
-			(project "TLV70450DBVR"
-				(path "/a0aac50c-405e-454e-9600-58c93bebf111"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Diode_TVS_AKL:SMAJ24CA")
-		(at 67.31 54.61 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "ebd7efe0-016f-46eb-ad95-a156091d793c")
-		(property "Reference" "D1"
-			(at 69.85 53.3399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SMAJ24CA"
-			(at 69.85 55.8799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_SMA_TVS"
-			(at 67.31 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/dbc72d81c249fe51b6ab42300e8e06d0/SMAJ_ser.pdf"
-			(at 67.31 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMA Bidirectional TVS Diode, 24V, 400W, Alternate KiCAD Library"
-			(at 67.31 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e65b5264-2e94-4627-a194-7c3db643a6f0")
-		)
-		(pin "1"
-			(uuid "5ed88ec1-8e0c-42c0-9f9d-bbcb500efd0f")
-		)
-		(instances
-			(project ""
-				(path "/a0aac50c-405e-454e-9600-58c93bebf111"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_1206")
-		(at 135.89 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f7b5062e-7589-4cbe-8880-6ee075be258f")
-		(property "Reference" "C4"
-			(at 139.7 52.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 139.7 54.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
-			(at 136.8552 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 135.89 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 1206 MLCC capacitor, Alternate KiCad Library"
-			(at 135.89 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fffc65db-132f-4ddc-8708-52be736ac1a9")
-		)
-		(pin "2"
-			(uuid "c7226da5-9eb5-403d-bc80-a4f2dc7e90dd")
-		)
-		(instances
-			(project "TLV70450DBVR"
-				(path "/a0aac50c-405e-454e-9600-58c93bebf111"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Diode_TVS_AKL:SMAJ5.0CA")
-		(at 149.86 54.61 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "f96ec13f-f857-4b68-8cc2-de3addaa352f")
-		(property "Reference" "D2"
-			(at 152.4 53.3399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SMAJ5.0CA"
-			(at 152.4 55.8799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_SMA_TVS"
-			(at 149.86 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/dbc72d81c249fe51b6ab42300e8e06d0/SMAJ_ser.pdf"
-			(at 149.86 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMA Bidirectional TVS Diode, 5V, 400W, Alternate KiCAD Library"
-			(at 149.86 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3d3702ed-8d73-4758-a5bc-6681db2bbe6b")
-		)
-		(pin "2"
-			(uuid "fe339f2f-e9a1-406b-8d8e-0b16e19a845b")
-		)
-		(instances
-			(project ""
-				(path "/a0aac50c-405e-454e-9600-58c93bebf111"
-					(reference "D2")
 					(unit 1)
 				)
 			)
